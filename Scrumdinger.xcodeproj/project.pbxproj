@@ -23,6 +23,7 @@
 		D0DA88F72B0625F9008C06FB /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA88F62B0625F9008C06FB /* DetailEditView.swift */; };
 		D0DA88F92B063AEF008C06FB /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA88F82B063AEF008C06FB /* ThemeView.swift */; };
 		D0DA88FB2B063B9E008C06FB /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA88FA2B063B9E008C06FB /* ThemePicker.swift */; };
+		D0DA88FD2B06562D008C06FB /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA88FC2B06562D008C06FB /* MeetingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		D0DA88F62B0625F9008C06FB /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		D0DA88F82B063AEF008C06FB /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		D0DA88FA2B063B9E008C06FB /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		D0DA88FC2B06562D008C06FB /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				D0DA88F82B063AEF008C06FB /* ThemeView.swift */,
 				D0DA88FA2B063B9E008C06FB /* ThemePicker.swift */,
 				D0A6D1D32B04C2C300865A11 /* ScrumdingerApp.swift */,
+				D0DA88FC2B06562D008C06FB /* MeetingHeaderView.swift */,
 				D0A6D1E42B04C2C400865A11 /* ScrumdingerTests */,
 				D0A6D1D72B04C2C400865A11 /* Assets.xcassets */,
 				D0A6D1D92B04C2C400865A11 /* Scrumdinger.entitlements */,
@@ -297,6 +300,7 @@
 				D0DA88FB2B063B9E008C06FB /* ThemePicker.swift in Sources */,
 				D0A6D2022B04EF7100865A11 /* DailyScrum.swift in Sources */,
 				D0A6D20C2B05068500865A11 /* DetailView.swift in Sources */,
+				D0DA88FD2B06562D008C06FB /* MeetingHeaderView.swift in Sources */,
 				D0DA88F72B0625F9008C06FB /* DetailEditView.swift in Sources */,
 				D0A6D2082B04F89700865A11 /* TrailingIconLabelStyle.swift in Sources */,
 				D0A6D1D62B04C2C300865A11 /* MeetingView.swift in Sources */,
