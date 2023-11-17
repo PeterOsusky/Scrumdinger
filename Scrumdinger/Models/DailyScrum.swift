@@ -1,20 +1,21 @@
-//
-//  DailyScrum.swift
-//  Scrumdinger
-//
-//  Created by Peter on 15/11/2023.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import Foundation
 
 struct DailyScrum: Identifiable {
-    var id: UUID
+    let id: UUID
     var title: String
     var attendees: [Attendee]
     var lengthInMinutes: Int
     var lengthInMinutesAsDouble: Double {
-        get { Double(lengthInMinutes) }
-        set { lengthInMinutes =  Int(newValue) }
+        get {
+            Double(lengthInMinutes)
+        }
+        set {
+            lengthInMinutes = Int(newValue)
+        }
     }
     var theme: Theme
     

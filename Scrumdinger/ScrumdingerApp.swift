@@ -1,9 +1,6 @@
-//
-//  ScrumdingerApp.swift
-//  Scrumdinger
-//
-//  Created by Peter on 15/11/2023.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 

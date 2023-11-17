@@ -1,17 +1,10 @@
-//
-//  Themes.swift
-//  Scrumdinger
-//
-//  Created by Peter on 15/11/2023.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
 enum Theme: String, CaseIterable, Identifiable {
-    var id: String {
-        name
-    }
-    
     case bubblegum
     case buttercup
     case indigo
@@ -73,5 +66,8 @@ enum Theme: String, CaseIterable, Identifiable {
     }
     var name: String {
         rawValue.capitalized
+    }
+    var id: String {
+        name
     }
 }
