@@ -34,8 +34,8 @@ class ScrumStore: ObservableObject {
     
     func save(scrums: [DailyScrum]) async throws {
         let task = Task {
-            let data = try JSONEncoder().encode(scrums)
-            let outfile = try Self.fileURL()
+            _ = try JSONEncoder().encode(scrums)
+            _ = try Self.fileURL()
         }
         _ = try await task.value
     }
